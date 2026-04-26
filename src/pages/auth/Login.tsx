@@ -63,7 +63,7 @@ function Login() {
               <button type="submit" className="btn-primary" disabled={loading}>
                 {loading ? 'Cargando...' : 'Iniciar sesión'}
               </button>
-              <button type="button" className="btn-secondary" onClick={() => navigate('/registro')}>
+              <button type="button" className="btn-secondary" onClick={() => navigate('/Registro')}>
                 Registrar
               </button>
             </div>
@@ -72,7 +72,7 @@ function Login() {
 
         <div className="login-right">
           <div className="login-brand">
-            <div className="login-brand-logo">x</div>
+            <div className="login-brand-logo"></div>
             <span className="login-brand-name">HACKGRICULTORES</span>
           </div>
           <div className="login-info-card">
